@@ -1,1 +1,1 @@
-Hey this is just an unuseful project
+Hey this is just a useless project
