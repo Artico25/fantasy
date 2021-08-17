@@ -4,10 +4,14 @@
 	<title>Fantasy</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 	<meta name="author" content="Antonello Onida - http://fantacalciobazar.altervista.org" />
-	<link rel="stylesheet" href="./base.css" TYPE="text/css" />
+	
+	<link rel="stylesheet" href="./dati/base.css" TYPE="text/css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Varela+Round&display=swap" rel="stylesheet">
 </head>
 <body>
-	<table border="0" class="menutable" style="height: 10%;" cellPadding="10" cellSpacing="0" align="center">
+	<table border="0" class="menutable"  cellPadding="0" cellSpacing="0" align="center">
 		<tr>
 			<td class="menucell" align="center"><h1>Fantasy</h1></td>
 		</tr>
@@ -15,23 +19,23 @@
 	<table border="0" class="menutable" style="height: 60%;" cellPadding="10" cellSpacing="0" align="center">
 		
 			<td align="center" bgcolor="#EEEEEE">
-				<div class="intro"><b>Benvenuto in Fantasy! Il Fantacalcio di YSport.eu</b>. Se sei un appassionato di fantacalcio non puoi non giocare a Fantasy, il fantacalcio Europeo con un database di oltre 800 giocatori provenienti dai top 5 campionati europei (Serie A, Premier League, Bundesliga, Liga e Ligue 1). Vinci fantastici premi settimanali sfidando altri utenti da tutta Italia. Iscriviti!<br/><br/><a href="iscrizione.php" class="user">ISCRIZIONI</a>&nbsp;al campionato aperte.<br/><br/></div>
+				<div align="center" class="intro"><b>Benvenuto in Fantasy! Il Fantacalcio di YSport.eu</b>. Se sei un appassionato di fantacalcio non puoi non giocare a Fantasy, il fantacalcio Europeo con un database di oltre 800 giocatori provenienti dai top 5 campionati europei (Serie A, Premier League, Bundesliga, Liga e Ligue 1). Vinci fantastici premi settimanali sfidando altri utenti da tutta Italia. Iscriviti!
+					<br/><br/><div class="iscrizioni"><a href="iscrizione.php" class="user">ISCRIZIONI</a>&nbsp;al campionato aperte.<br/><br/></div>
+				</div>
 		
-			<table border ="0" cellspacing = "0" cellpadding = "10" width = "400" align = "center" bgcolor="#EEEEEE" background="./images/bg_index.jpg" >
-				<tr>
-					<td colspan = "2" height = "5%" align="center"></td>
-				</tr><br/><br/>
+			<table border ="0" cellspacing = "0" cellpadding = "10" width = "400" align = "center" class="formAccesso">
+				
 				<form method = "post" action="./login.php">
 				<tr>
-					<td align="right">Pseudonimo:</td>
+					<td align="right" class="accesso">Pseudonimo:</td>
 					<td><input type = "text" name = "utente"></td>
 				</tr>
 				<tr>
-					<td align="right">Password:</td>
+					<td align="right" class="accesso">Password:</td>
 					<td><input type = "password" name = "pass"></td>
 				</tr>
 				<tr>
-					<td align="right">Accedi</td>
+					<td align="right" class="accesso">Accedi</td>
 					<td><input type = "image" src = "images/next.gif" name = "submit" alt = "connessione"></td>
 				</tr>
 				</form>
@@ -47,7 +51,7 @@
 		
 	</table>
 	
-	<table border="0" class="menutable"  cellPadding="0" cellSpacing="0" align="center">
+	<table border="0" class="bottom"  cellPadding="0" cellSpacing="0" align="center">
 		<tr>
 			<td class="menucell" align="center">FantacalcioBazar  Copyright 2005 - &copy; Antonello Onida - Sito <a href="http://fantacalciobazar.altervista.org" class="menu">fantacalciobazar.altervista.org</a></td>
 		</tr>
